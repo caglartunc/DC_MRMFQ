@@ -1,6 +1,6 @@
 # Dual-Connectivity Activation Analysis in Cellular Networks using Multi-Regime Markov Fluid Queues (MRMFQs)
 
-A mmWave vehicular network in a highway scenario is simulated. mmWave-enabled vehicles communicate with the roadside units (RSUs) either over direct vehicle-to-infrastructure (V2I) links, or through other mmWave-enable vehicles that act as relays.
+A dual-connectivity scenario analyzer with a Master Cell Group (MCG) and a Secondary Cell Group (SCG). Each cell group has low-band, mid-band and high-band carriers, whose rates are modeled through separate Markov chains. Four boundaries of the MRMFQ model, at 0, Td (SCG deactivation threshold), Ta (SCG activation threshold), and B (PDCP buffer size), constitute three regimes.
 
 ## Running the code:
 
